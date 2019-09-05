@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Test Responsive Layout"),
+        title: Text("Responsive Layout V 0.1"),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -27,8 +27,8 @@ class HomePage extends StatelessWidget {
                     child: Container(
                       height: 100,
                       alignment: Alignment.center,
-                      color: Colors.purple,
-                      child: Text('This is Colunm 1', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500)),
+                      color: Colors.white,
+                      child: Text('Layout Header', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500)),
                     ),
                   ),
                   ResponsiveGridCol(
@@ -76,7 +76,7 @@ class HomePage extends StatelessWidget {
                       height: 100,
                       alignment: Alignment.center,
                       color: Colors.yellow,
-                      child: Text("Colunm 4", style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),),
+                      child: Text("Layout Footer", style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),),
                     ),
                   ),
                 ]
