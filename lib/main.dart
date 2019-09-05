@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Responsive Layout V 0.1"),
+        title: Text("Responsive Layout V 0.2"),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
                       height: 100,
                       alignment: Alignment.center,
                       color: Colors.green,
-                      child: Text("Colunm 2, Row 1", style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500)),
+                      child: Text("Left Layout 1", style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500)),
                     ),
                   ),
                   ResponsiveGridCol(
@@ -48,7 +48,7 @@ class HomePage extends StatelessWidget {
                       height: 100,
                       alignment: Alignment.center,
                       color: Colors.orange,
-                      child: Text("Colunm 2, Row 2", style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500)),
+                      child: Text("Right Layout 1", style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500)),
                     ),
                   ),
                   ResponsiveGridCol(
@@ -58,7 +58,7 @@ class HomePage extends StatelessWidget {
                       height: 100,
                       alignment: Alignment.center,
                       color: Colors.red,
-                      child: Text("Colunm 3, Row 1", style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),),
+                      child: Text("Left Layout 2", style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),),
                     ),
                   ),
                   ResponsiveGridCol(
@@ -68,7 +68,7 @@ class HomePage extends StatelessWidget {
                       height: 100,
                       alignment: Alignment.center,
                       color: Colors.blue,
-                      child: Text("Colunm 3, Row 2", style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),),
+                      child: Text("Rigth Layout 2", style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),),
                     ),
                   ),
                   ResponsiveGridCol(
